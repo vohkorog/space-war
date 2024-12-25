@@ -1,5 +1,7 @@
 #pragma once 
 #include <SFML/Graphics.hpp>
+#include <cstdlib>
+#include <ctime>
 #include <vector>
 
 class Enemy{
@@ -8,6 +10,8 @@ class Enemy{
         std::string texturePath;
         sf::Texture texture;
         sf::Sprite sprite;
+        float directionX;
+        float directionY;
         
     public:
         Enemy(float x, float y);
@@ -17,4 +21,5 @@ class Enemy{
         sf::Sprite getSprite();
         void setPosition(float x, float y);
         void move();
+        void moveRandomly(float deltaTime);
 };

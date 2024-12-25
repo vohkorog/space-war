@@ -26,7 +26,7 @@ void Manager::add(int num)
 
     for(int i=0; i<num; i++)
     {
-        int x = std::rand()%800;
+        int x = std::rand()%750;
         int y = distrib(gen);
         this->enemy = new Enemy(x,y);
         this->resurces.push_back(this->enemy);
