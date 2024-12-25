@@ -19,9 +19,9 @@ Player::~Player(){
 }
 
 void Player::render(sf::RenderWindow *window){
-    window->draw(this->sprite);
+    window->draw(this->sprite); // отрисовка спрайта игрока 
 
-    for(int i = 0; i<this->bullets.size(); i++){
+    for(int i = 0; i<this->bullets.size(); i++){ // отрисовка стреляющих пуль
         window->draw(bullets[i].getSprite());
     }
 }
@@ -43,10 +43,7 @@ void Player::input(){
         this->sprite.move(0, 2);
     }
     if(this->canShoot && sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
-        this->bullets.emplace_back("/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/res/bullet.png"); 
-        this->bullets.back().setPosition(this->sprite.getPosition().x, this->sprite.getPosition().y);
-        canShoot = false; // Блокируем стрельбу
-        shootClock.restart();
+        shoot();
     }
 }
 
@@ -72,8 +69,8 @@ sf::Vector2f Player::getPosition(){
 }
 
 void Player::shoot(){
-
-    
-
-    
+    this->bullets.emplace_back("/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/res/bullet.png"); 
+    this->bullets.back().setPosition(this->sprite.getPosition().x, this->sprite.getPosition().y);
+    canShoot = false; // Блокируем стрельбу
+    shootClock.restart();
 }

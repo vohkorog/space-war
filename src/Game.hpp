@@ -5,6 +5,7 @@
 #include "ParallaxBackground.hpp"
 #include "Bullet.hpp"
 #include "Enemy.hpp"
+#include "Manager.hpp"
 
 class Game{
     private:
@@ -22,6 +23,7 @@ class Game{
         Player *player;
         Bullet *bullet;
         Enemy *enemy;
+        Manager manager;
         void initVar();
         void initWindow();
     public:

@@ -1,0 +1,3 @@
+/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build/CMakeFiles/app.dir
+/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build/CMakeFiles/edit_cache.dir
+/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build/CMakeFiles/rebuild_cache.dir

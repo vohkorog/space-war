@@ -18,6 +18,5 @@ class Bullet{
         sf::FloatRect colision();
         bool isOffScreen();
         sf::Sprite getSprite();
-        void input();
         void setPosition(float x, float y);
 };

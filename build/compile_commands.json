@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/Bullet.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Bullet.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Bullet.cpp",
+  "output": "CMakeFiles/app.dir/src/Bullet.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/Enemy.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Enemy.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Enemy.cpp",
+  "output": "CMakeFiles/app.dir/src/Enemy.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/Game.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Game.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Game.cpp",
+  "output": "CMakeFiles/app.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/Manager.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Manager.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Manager.cpp",
+  "output": "CMakeFiles/app.dir/src/Manager.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/ParallaxBackground.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/ParallaxBackground.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/ParallaxBackground.cpp",
+  "output": "CMakeFiles/app.dir/src/ParallaxBackground.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/Player.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Player.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/Player.cpp",
+  "output": "CMakeFiles/app.dir/src/Player.cpp.o"
+},
+{
+  "directory": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sfml/2.6.1/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/app.dir/src/main.cpp.o -c \"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/main.cpp\"",
+  "file": "/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/src/main.cpp",
+  "output": "CMakeFiles/app.dir/src/main.cpp.o"
+}
+]

@@ -3,11 +3,10 @@
 void Game::initVar(){
     this->window = nullptr;
     this->player = new Player("/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/res/spaceship.png");
-    this->enemy = new Enemy("/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/res/enemy.png");
     this->texturesBackground = {"/Users/kirillgorohov/Desktop/codes/c++/SFML Game/StarWars/res/bac.jpg"};
     this->speedsBackground = {0.5f, 0.3f, 0.1f};
     this->parallaxBackground = new ParallaxBackground(this->texturesBackground, this->speedsBackground);
-
+    this->manager.add(6);
 }
 
 void Game::initWindow(){
@@ -30,7 +29,7 @@ void Game::render(){
     this->window->clear(sf::Color::Black);
     this->parallaxBackground->render(this->window);
     this->player->render(this->window);
-    this->enemy->render(this->window);
+    manager.render(this->window);
     this->window->display();
 }
 
@@ -39,6 +38,7 @@ void Game::update(){
     
     this->parallaxBackground->update(this->clock.restart().asSeconds()*100);
     this->player->update();
+    this->manager.update();
     this->input();
 }
 
