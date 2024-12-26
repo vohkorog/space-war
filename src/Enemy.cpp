@@ -51,40 +51,7 @@ void Enemy::move(){
         this->directionY *= -1;
     }
 
-
-
-
-    // float x = this->sprite.getPosition().x+this->directionX;
-    // float y = this->sprite.getPosition().y+this->directionY;
-    // this->sprite.setPosition(x,y);
-    // if(x>800){
-    //     this->directionX *= -1;
-    // }
-    // if(x<0){
-    //     this->directionX *= -1;
-    // }
-    // if(y>800){
-    //     this->directionY *= -1;
-    // }
-    // if(x<400){
-    //     this->directionY *= -1;
-    // }
 }
 
 
-// void Enemy::moveRandomly(float deltaTime) {
-//     // Генерация случайного направления
-//     static float  = (rand() % 3 - 1) * 100; // -1, 0 или 1
-//     static float directionY = (rand() % 3 - 1) * 100; // -1, 0 или 1
 
-//     // Изменение позиции спрайта
-//     this->sprite.move(directionX * deltaTime, directionY * deltaTime);
-
-//     // Проверка границ окна
-//     if (this->sprite.getPosition().x < 0 || this->sprite.getPosition().x + this->sprite.getGlobalBounds().width > 1000) {
-//         directionX = -directionX; // Изменение направления по X
-//     }
-//     if (this->sprite.getPosition().y < 0 || this->sprite.getPosition().y + this->sprite.getGlobalBounds().height > 1000) {
-//         directionY = -directionY; // Изменение направления по Y
-//     }
-// }
